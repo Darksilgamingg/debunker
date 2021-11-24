@@ -1,0 +1,100 @@
+/* pc va tablet */
+@media (min-width:46.25em) {
+    #mainWrapper {
+        width: 80%;
+        padding-left: 10%;
+    }
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #headerLinks{
+        padding-left: 131px;
+    }
+
+    .img{
+        padding-top: 20px;
+    }
+
+    #search,
+    .dmm{
+        display: none;
+    }
+
+    .productInfo div img {
+        width: 80%;
+        padding-right: 66px;
+        overflow: hidden;
+    }
+
+    .mainContent .productRow .productInfo {
+        float: left;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 22%;
+    }
+
+    .anhsanpham {
+        /* overflow: hidden; */
+        width: 131px;
+        /* width: 200px; */
+    }
+
+    #content {
+        display: block;
+    }
+    
+}
+
+/* mobile */
+@media (max-width: 46.1875em) {
+
+    #content {
+        display: block;
+    }
+    
+    #content .dmm,
+    #content h2 {
+        display: none;
+    }
+
+    .mainContent .productRow:first-child{
+        padding-top: 100px;
+    }
+
+    .anhsanpham,
+    .anhsanpham > img {
+        padding-left: 32px;
+    }
+
+    #offer {
+        width: 100%;
+    }
+
+    .anhsanpham {
+        width: 70%;
+        /* height: 200px; */
+    }
+
+    footer .footerlinks p a{
+        font-size: 19px;
+    }
+
+    #mainWrapper header #headerLinks {
+        background-color: rgba(246,246,246,1.00);
+    }
+
+    .sidebar #menubar .menu {
+        left: -8px;
+    }
+
+    .productRow .productInfo .price {
+        font-size: 20px;
+    }
+
+    .productRow .productInfo .productContent {
+        font-size: 25px;
+    }
+
+    
+}

@@ -1576,6 +1576,11 @@ html {
     max-height: 340px;
     overflow-y: scroll;
   }
+
+  nav .container:first-child{
+    padding-top: 46px;
+  }
+
   .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -6782,3 +6787,40 @@ html {
     padding-left: 66px;
     font-size: 14px;
   }
+
+#headerdbk{
+  width: 100%;
+  height: 46px;
+  background-color: black;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#DBK{
+  display: inline-block;
+  text-transform: uppercase;
+  list-style-type: none;
+  line-height: 46px;
+  color: white;
+}
+
+#DBK li{
+  position: relative;
+  display: inline-block;
+}
+
+.search-btn{
+  display: inline-block;
+  float: right;
+  padding: 0 21px;
+  cursor: pointer;
+  line-height: 46px;
+}
+
+.ttt{
+  color: white;
+}

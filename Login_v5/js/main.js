@@ -1,4 +1,28 @@
 
+function checkdangnhap()
+{
+    var user=document.flogin.username.value;
+    var pass=document.flogin.username.value;
+    if(user=="")
+    {
+        alert("Bạn chưa nhập tên");
+        document.flogin.username.forcus();
+        return false;
+    }else if (pass=="")
+    {
+        alert("Bạn chưa nhập mật khẩu");
+        document.flogin.pass.forcus();
+        return false;
+    }
+    else if(user!="Admin" && pass=="Admin"){
+        alert("Ok");
+    } else{
+        alert("Sai tên đăng nhập hoặc mật khẩu");
+        document.fusername.forcus();
+    }
+
+}
+
 (function ($) {
     "use strict";
 
